@@ -2,9 +2,9 @@
   <h1 align="center">Yeap Theme</h1>
   <p align="center">An official Yeap theme for Visual Studio Code.</p>
 </div>
-
-<img src="./media/preview.png" alt="Theme preview in Visual Studio Code" />
-
+<p align="center">
+  <img src="./media/preview.png" width="1280" height="806" align="center" alt="Theme preview in Visual Studio Code" />
+</p>
 ## Install
 
 Install this syntax theme [from the Marketplace][theme-install].
