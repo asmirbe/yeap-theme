@@ -3,7 +3,7 @@
   <p align="center">An official Yeap theme for Visual Studio Code.</p>
 </div>
 <p align="center">
-  <img src="./media/preview.png" width="1280" height="806" align="center" alt="Theme preview in Visual Studio Code" />
+  <img src="./media/preview.png" alt="Theme preview in Visual Studio Code" />
 </p>
 ## Install
 
