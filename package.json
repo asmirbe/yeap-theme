@@ -6,7 +6,8 @@
   "publisher": "Asmir",
   "license": "MIT",
   "scripts": {
-    "release": "bash ./bump.sh && vsce package"
+    "release": "bash ./bump.sh",
+    "package": "vsce package"
   },
   "repository": {
     "type": "git",
