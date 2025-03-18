@@ -2,8 +2,8 @@
   "name": "yeap-theme",
   "displayName": "Yeap Theme",
   "description": "A Yeap theme for Visual Studio Code",
-  "version": "1.0.1",
-  "publisher": "Yeap-ai - Asmir",
+  "version": "1.0.2",
+  "publisher": "Asmir",
   "license": "MIT",
   "scripts": {
     "release": "bash ./bump.sh && vsce package"
