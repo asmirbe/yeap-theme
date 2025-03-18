@@ -5,6 +5,7 @@
 <p align="center">
   <img src="./media/preview.png" alt="Theme preview in Visual Studio Code" />
 </p>
+
 ## Install
 
 Install this syntax theme [from the Marketplace][theme-install].
