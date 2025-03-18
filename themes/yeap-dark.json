@@ -9,7 +9,7 @@
   "colors": {
       "background": "#0D0D0D",
       "foreground": "#F0F0F0",
-      "focusBorder": "#AD9CFF",
+      "focusBorder": "#4eb3f2",
       "selection.background": "#9D8BF933",
       "scrollbar.shadow": "#0000007e",
       "input.background": "#000",
