@@ -1,12 +1,12 @@
 {
-  "name": "yeap-projects-theme",
+  "name": "yeap-theme",
   "displayName": "Yeap Theme",
   "description": "A Yeap theme for Visual Studio Code",
-  "version": "1.1.1",
-  "publisher": "Yeap-io",
-  "license": "Apache-2.0",
+  "version": "1.0.1",
+  "publisher": "Yeap-ai - Asmir",
+  "license": "MIT",
   "scripts": {
-    "release": "bash ./bump.sh && vsce publish --no-git-tag-version"
+    "release": "bash ./bump.sh && vsce package"
   },
   "repository": {
     "type": "git",
