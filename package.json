@@ -2,11 +2,11 @@
   "name": "yeap-projects-theme",
   "displayName": "Yeap Theme",
   "description": "A Yeap theme for Visual Studio Code",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "Yeap-io",
   "license": "Apache-2.0",
   "scripts": {
-    "release": "bash ./scripts/bump.sh && vsce publish --no-git-tag-version"
+    "release": "bash ./bump.sh && vsce publish --no-git-tag-version"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
       {
         "label": "Yeap",
         "uiTheme": "vs-dark",
-        "path": "./themes/Yeap-dark.json"
+        "path": "./themes/yeap-dark.json"
       }
     ]
   },
