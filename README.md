@@ -22,7 +22,7 @@ Below you can find a few recommendations for your `settings.json` to match the Y
   "editor.fontFamily": "'Fira Code'",
   "editor.mouseWheelZoom": false,
   "editor.fontLigatures": true,
-	"editor.minimap.size": "proportional",
+  "editor.minimap.size": "proportional",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "window.titleBarStyle": "custom",
@@ -32,7 +32,7 @@ Below you can find a few recommendations for your `settings.json` to match the Y
   "terminal.integrated.cursorBlinking": true,
   // As you like
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": false
 }
 ```
 
