@@ -1,4 +1,4 @@
-<div align="center"><img src="./media//icon2.png" width="120" alt="Yeap Theme Logo" />
+<div align="center"><img src="./media/icon2.png" width="120" alt="Yeap Theme Logo" />
   <h1 align="center">Yeap Theme</h1>
   <p align="center">An official Yeap theme for Visual Studio Code.</p>
 </div>
@@ -8,7 +8,7 @@
 
 ## Install
 
-Install this syntax theme [from the Marketplace][theme-install].
+Download theme **`.vsix`** from [Releases](https://github.com/asmirbe/yeap-theme/releases/tag/v1.0.5) and drag-n-drop it in your VScode extensions.
 
 ## Recommendations
 
