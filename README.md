@@ -8,13 +8,13 @@
 
 ## Install
 
-Download theme **`.vsix`** from [Releases](https://github.com/asmirbe/yeap-theme/releases/tag/v1.0.5) and drag-n-drop it in your VScode extensions.
+Download the **`.vsix`** theme from the [Releases](https://github.com/asmirbe/yeap-theme/releases/tag/v1.0.5) section and drag it into the Extensions panel in VS Code.
 
 ## Recommendations
 
 Below you can find a few recommendations for your `settings.json` to match the Yeap experience even closer in your Visual Studio Code:
 
-```json
+```JSON
 {
   // Editor
   "editor.smoothScrolling": true,
