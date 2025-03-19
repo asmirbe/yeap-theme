@@ -9,7 +9,7 @@
   "colors": {
       "background": "#0D0D0D",
       "foreground": "#F0F0F0",
-      "focusBorder": "#4eb3f2",
+      "focusBorder": "#29D2EB",
       "selection.background": "#9D8BF933",
       "scrollbar.shadow": "#0000007e",
       "input.background": "#000",
@@ -80,7 +80,7 @@
       "editorWidget.foreground": "#ccc",
       "editorWidget.background": "#1a1a1a",
       "pickerGroup.border": "#3f3f46",
-      "pickerGroup.foreground": "#3794ff",
+      "pickerGroup.foreground": "#29D2EB",
       "editorWidget.resizeBorder": "#5f5f5f",
       "debugToolBar.background": "#333",
       "debugToolBar.border": "#474747",
@@ -95,7 +95,7 @@
       "gitDecoration.conflictingResourceForeground": "#E67728",
       "gitDecoration.ignoredResourceForeground": "#808080",
       "gitDecoration.modifiedResourceForeground": "#EBC300",
-      "progressBar.background": "#866EFF",
+      "progressBar.background": "#29D2EB",
       "icon.foreground": "#ADADAD",
       "titleBar.border": "#333333",
       "panel.border": "#333333",
@@ -107,6 +107,55 @@
       "editorGroupHeader.tabsBorder": "#333333"
   },
   "tokenColors": [
+    {
+        "name": "Types de retour de fonction",
+        "scope": [
+          "meta.return.type entity.name.type",
+          "meta.return.type support.type.primitive",
+          "meta.return-type support.type.primitive",
+          "meta.return-type entity.name.type",
+          "meta.function.return-type support.type.primitive",
+          "meta.function.return-type entity.name.type"
+        ],
+        "settings": {
+          "foreground": "#29D2EB"
+        }
+      },
+      {
+        "name": "Flèche de type de retour",
+        "scope": [
+          "meta.return-type keyword.operator",
+          "meta.function.return-type keyword.operator.type.annotation",
+          "meta.type.function.return keyword.operator.type.function.return"
+        ],
+        "settings": {
+          "foreground": "#b3d9e8"
+        }
+      },
+      {
+        "name": "Types de paramètres",
+        "scope": [
+          "meta.parameter.type entity.name.type",
+          "meta.parameter.type support.type.primitive",
+          "meta.parameter.object.type entity.name.type",
+          "meta.parameter.object.type support.type.primitive"
+        ],
+        "settings": {
+          "foreground": "#EBEBEB"
+        }
+      },
+      {
+        "name": "Types de propriétés",
+        "scope": [
+          "meta.object.type meta.field.declaration.ts meta.type.annotation support.type.primitive",
+          "meta.type.annotation support.type.primitive",
+          "meta.object.type meta.field.declaration.ts meta.type.annotation entity.name.type"
+        ],
+        "settings": {
+          "foreground": "#EBEBEB"
+        }
+      }
+    ,     
       {
           "name": "string",
           "scope": [
@@ -347,7 +396,7 @@
               "meta.function-call"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -405,7 +454,7 @@
               "entity.name.function"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -497,7 +546,7 @@
               "keyword.operator"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
@@ -506,7 +555,7 @@
               "storage.type.function.arrow"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
@@ -524,7 +573,7 @@
               "source.css"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -533,7 +582,7 @@
               "entity.other.attribute-name"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -542,7 +591,7 @@
               "entity.name.tag.css"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -551,7 +600,7 @@
               "entity.other.attribute-name.id"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -560,7 +609,7 @@
               "entity.other.attribute-name.class"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -569,7 +618,7 @@
               "source.css meta.selector.css"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -704,7 +753,7 @@
               "string.html"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -740,7 +789,7 @@
               "entity.name.tag.wildcard"
           ],
           "settings": {
-              "foreground": "#CDF861"
+              "foreground": "#36C2EE"
           }
       },
       {
@@ -758,7 +807,7 @@
               "markup.heading.markdown"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
@@ -767,7 +816,7 @@
               "punctuation.definition.bold.markdown"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
@@ -776,7 +825,7 @@
               "meta.paragraph.markdown punctuation.definition.link.description"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
@@ -785,7 +834,7 @@
               "punctuation.definition.raw.markdown"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
@@ -839,7 +888,7 @@
               "punctuation.definition.markdown"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
@@ -848,7 +897,7 @@
               "punctuation.definition.string"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
@@ -857,7 +906,7 @@
               "punctuation.definition.string.begin.shell"
           ],
           "settings": {
-              "foreground": "#b3e8b4"
+              "foreground": "#b3d9e8"
           }
       },
       {
