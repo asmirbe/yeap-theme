@@ -2,7 +2,7 @@
   "name": "yeap-theme",
   "displayName": "Yeap Theme",
   "description": "A Yeap theme for Visual Studio Code",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publisher": "Asmir",
   "license": "MIT",
   "scripts": {
