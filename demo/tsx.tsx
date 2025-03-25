@@ -3,6 +3,20 @@ import { Person, SearchService } from '../shared'
 import { ActivatedRoute } from '@angular/router'
 import { Subscription } from 'rxjs'
 
+export interface SearchResult {
+  name: string;
+  age: number;
+}
+
+export type SearchResults = Array<SearchResult> {
+  person: {
+    name: string;
+    age: number;
+  }
+  searchResults: SearchResults
+  search: () => void;
+}
+
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',

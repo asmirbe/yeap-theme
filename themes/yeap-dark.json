@@ -108,7 +108,18 @@
   },
   "tokenColors": [
     {
-        "name": "Types de retour de fonction",
+        "name": "type.declarations",
+        "scope": [
+          "entity.name.type.alias",
+          "entity.name.type.interface",
+          "meta.type.declaration entity.name.type"
+        ],
+        "settings": {
+          "foreground": "#29D2EB"
+        }
+      },
+    {
+        "name": "type.function.return",
         "scope": [
           "meta.return.type entity.name.type",
           "meta.return.type support.type.primitive",
@@ -122,7 +133,7 @@
         }
       },
       {
-        "name": "Flèche de type de retour",
+        "name": "arrow.function.return",
         "scope": [
           "meta.return-type keyword.operator",
           "meta.function.return-type keyword.operator.type.annotation",
@@ -133,7 +144,7 @@
         }
       },
       {
-        "name": "Types de paramètres",
+        "name": "parameter.type",
         "scope": [
           "meta.parameter.type entity.name.type",
           "meta.parameter.type support.type.primitive",
@@ -145,7 +156,7 @@
         }
       },
       {
-        "name": "Types de propriétés",
+        "name": "props.types",
         "scope": [
           "meta.object.type meta.field.declaration.ts meta.type.annotation support.type.primitive",
           "meta.type.annotation support.type.primitive",
