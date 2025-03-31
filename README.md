@@ -1,4 +1,5 @@
-<div align="center"><img src="./media/icon2.png" width="120" alt="Yeap Theme Logo" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/asmirbe/yeap-theme/refs/heads/master/media/small.png" width="120" alt="Yeap Theme Logo" />
   <h1 align="center">Yeap Theme</h1>
   <p align="center">An official Yeap theme for Visual Studio Code.</p>
 </div>
